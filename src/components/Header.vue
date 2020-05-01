@@ -35,4 +35,7 @@ export default {
 a{
   text-decoration: none
 }
+.theme--dark svg{
+  fill: #fff;
+}
 </style>

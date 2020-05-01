@@ -16,7 +16,13 @@
     align-items: center;
 }
 h1{
-    font-size: 3rem;
+    font-size: 4.5rem;
     text-align: center;
+    @media (max-width: 1199px){
+        font-size: 3rem;
+    }
+}
+.theme--dark svg{
+    fill: #fff;
 }
 </style>
